@@ -19,7 +19,7 @@ Developer：Zhen Liu @ NWPU
 - 完整模拟渲染管线基本流程
 - 实现了基础的材质、纹理、光照、阴影、天空盒以及图元裁剪、光栅化等算法
 
-![image-20220720101828805](https://github.com/LZ328/SoftRenderer/tree/main/Screenshots/image-20220720101828805.png)
+![image-20220720101828805](https://github.com/LZ328/SoftRenderer/blob/main/Screenshots/image-20220720101828805.png?raw=true)
 
 ![image-20220723102429237](https://github.com/LZ328/SoftRenderer/tree/main/Screenshots/image-20220723102429237.png)
 
