@@ -1,0 +1,41 @@
+﻿  uic EnvTab.ui
+  uic MaterialDialog.ui
+  uic ModelTab.ui
+  uic RenderWidget.ui
+  rcc SoftRender_Ver.miHoYo.qrc
+  moc RenderWidget.h
+  moc EnvTab.h
+  moc MaterialDialog.h
+   RCC: Warning: No resources in 'D:\TechStack\ComputerGraphics\RenderEngine\Projects\SoftRender_Ver.miHoYo\src\SoftRender_Ver.miHoYo.qrc'.
+  moc ModelTab.h
+  moc RenderLoop.h
+  BlinnShader.cpp
+  Camera.cpp
+  Clip.cpp
+  EnvTab.cpp
+  FrameBuffer.cpp
+  Image.cpp
+  Light.cpp
+  main.cpp
+  MaterialBase.cpp
+  MaterialDialog.cpp
+  Mesh.cpp
+  Graphics.cpp
+  Model.cpp
+  ModelTab.cpp
+  RenderLoop.cpp
+  ShaderBase.cpp
+  ShadowShader.cpp
+  RenderWidget.cpp
+  SkyboxShader.cpp
+  StateMachine.cpp
+  Texture.cpp
+  Transform.cpp
+  Vertex.cpp
+  qrc_SoftRender_Ver.miHoYo.cpp
+  moc_RenderWidget.cpp
+  moc_EnvTab.cpp
+  moc_MaterialDialog.cpp
+  moc_ModelTab.cpp
+  moc_RenderLoop.cpp
+  SoftRender_Ver.miHoYo.vcxproj -> D:\TechStack\ComputerGraphics\RenderEngine\Projects\SoftRender_Ver.miHoYo\src\x64\Release\SoftRender_Ver.miHoYo.exe

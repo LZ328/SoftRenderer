@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MaterialDialog</class>
+ <widget class="QDialog" name="MaterialDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>222</width>
+    <height>407</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>材质设置</string>
+  </property>
+  <widget class="QDoubleSpinBox" name="gSB">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>200</y>
+     <width>70</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <double>1.000000000000000</double>
+   </property>
+   <property name="maximum">
+    <double>32.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="sSBR">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>120</y>
+     <width>46</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>255</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>100</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Specular</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="mrB">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>330</y>
+     <width>50</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>移除</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="cSBR">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>46</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>255</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>250</y>
+     <width>100</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Main Texture</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="sSBG">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>120</y>
+     <width>46</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>255</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="cSBG">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>40</y>
+     <width>46</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>255</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="sSBB">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>120</y>
+     <width>46</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>255</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>100</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Albedo</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="cSBB">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>40</y>
+     <width>46</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="maximum">
+    <number>255</number>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="moB">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>290</y>
+     <width>50</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="text">
+    <string>打开</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>170</y>
+     <width>100</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Glossy</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="mCav">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>280</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
