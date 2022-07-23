@@ -21,11 +21,11 @@ Developer：Zhen Liu @ NWPU
 
 ![image-20220720101828805](https://github.com/LZ328/SoftRenderer/blob/main/Screenshots/image-20220720101828805.png?raw=true)
 
-![image-20220723102429237](https://github.com/LZ328/SoftRenderer/tree/main/Screenshots/image-20220723102429237.png?raw=true)
+![image-20220723102429237](https://github.com/LZ328/SoftRenderer/blob/main/Screenshots/image-20220723102429237.png?raw=true)
 
-![image-20220723084335117](https://github.com/LZ328/SoftRenderer/tree/main/Screenshots/image-20220723084335117.png?raw=true)
+![image-20220723084335117](https://github.com/LZ328/SoftRenderer/blob/main/Screenshots/image-20220723084335117.png?raw=true)
 
-![image-20220723084359800](https://github.com/LZ328/SoftRenderer/tree/main/Screenshots/image-20220723084359800.png?raw=true)
+![image-20220723084359800](https://github.com/LZ328/SoftRenderer/blob/main/Screenshots/image-20220723084359800.png?raw=true)
 
 ### 3 实现思路
 
