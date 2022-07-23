@@ -21,11 +21,11 @@ Developer：Zhen Liu @ NWPU
 
 ![image-20220720101828805](https://github.com/LZ328/SoftRenderer/blob/main/Screenshots/image-20220720101828805.png?raw=true)
 
-![image-20220723102429237](https://github.com/LZ328/SoftRenderer/tree/main/Screenshots/image-20220723102429237.png)
+![image-20220723102429237](https://github.com/LZ328/SoftRenderer/tree/main/Screenshots/image-20220723102429237.png?raw=true)
 
-![image-20220723084335117](https://github.com/LZ328/SoftRenderer/tree/main/Screenshots/image-20220723084335117.png)
+![image-20220723084335117](https://github.com/LZ328/SoftRenderer/tree/main/Screenshots/image-20220723084335117.png?raw=true)
 
-![image-20220723084359800](https://github.com/LZ328/SoftRenderer/tree/main/Screenshots/image-20220723084359800.png)
+![image-20220723084359800](https://github.com/LZ328/SoftRenderer/tree/main/Screenshots/image-20220723084359800.png?raw=true)
 
 ### 3 实现思路
 
@@ -185,11 +185,11 @@ void StateMachine::DrawScene()
 
 整个渲染流程中各对象的关系如下图所示：
 
-![流程1](https://github.com/LZ328/SoftRenderer/tree/main/Screenshots/流程1.jpg)
+![流程1](https://github.com/LZ328/SoftRenderer/tree/main/Screenshots/流程1.jpg?raw=true)
 
 其中 `Graphics::DrawModel` 是渲染管线流程的入口，渲染管线流程如下图所示：
 
-![流程2](https://github.com/LZ328/SoftRenderer/tree/main/Screenshots/流程2.jpg)
+![流程2](https://github.com/LZ328/SoftRenderer/tree/main/Screenshots/流程2.jpg?raw=true)
 
 #### 3.3 其他实现细节
 
@@ -211,7 +211,7 @@ void StateMachine::DrawScene()
 
 使用了边界函数光栅化算法，边界函数即根据向量叉乘判断点是否在三角形内部，如下图：
 
-![v2-09c42968924c38ea0732073d31d81912_r](https://github.com/LZ328/SoftRenderer/tree/main/Screenshots/image-20220723102429578.png)
+![v2-09c42968924c38ea0732073d31d81912_r](https://github.com/LZ328/SoftRenderer/tree/main/Screenshots/image-20220723102429578.png?raw=true)
 
 则点 P 相对于边 AB 的边界函数可以表示为：
 $$
